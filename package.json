@@ -1,0 +1,17 @@
+{
+  "name": "daxiaoren-3d",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "打小人 3D · 自由街区 — 一个程序化 3D 解压小游戏",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}
